@@ -3,11 +3,11 @@ GET http://localhost:1234/movies
 
 
 ### Recuperar una pelicula por id
-GET http://localhost:1234/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+GET http://localhost:1234/movies/a5b3087a-90b5-11ef-a5ec-408d5c9a99f8
 
 
 ### Recuperartodas las peliculas por un genero
-GET http://localhost:1234/movies?genre=AcTiOn
+GET http://localhost:1234/movies?genre=drama
 
 
 ### Crear una pelicula con POST
@@ -29,19 +29,18 @@ Content-Type: application/json
 
 
 ### Actualizar una pelicula
-PATCH http://localhost:1234/movies/ccf36f2e-8566-47f7-912d-9f4647250bc7
+PATCH http://localhost:1234/movies/a8418682-9241-11ef-a5ec-408d5c9a99f8
 Content-Type: application/json
 
 {
-    "title":"HOla",
-    "year": 1975
+    "year": 2010
 }
 
 
 
 
 ### Borrar una prlicula
-DELETE http://localhost:1234/movies/c8a7d63f-3b04-44d3-9d95-8782fd7dcfaf
+DELETE http://localhost:1234/movies/a29129bd-924b-11ef-a5ec-408d5c9a99f8
 
 
 
